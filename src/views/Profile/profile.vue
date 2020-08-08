@@ -1,0 +1,176 @@
+<template>
+    <div >
+      <scroll class="ccc">
+        <div>
+          <ul>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>dajiahao</li>
+          <li>dajiahao</li>
+          <li>dajiahao</li>
+          <li>dajiahao</li>
+          <li>dajiahao</li>
+          <li>dajiahao</li>
+          <li>dajiahao</li>
+          <li>dajiahao</li>
+          <li>dajiahao</li>
+          <li>dajiahao</li>
+          <li>dajiahao</li>
+          <li>dajiahao</li>
+          <li>dajiahao</li>
+          <li>dajiahao</li>
+          <li>dajiahao</li>
+          <li>dajiahao</li>
+          <li>dajiahao</li>
+          <li>dajiahao</li>
+          <li>dajiahao</li>
+          <li>dajiahao</li>
+          <li>dajiahao</li>
+          <li>dajiahao</li>
+          <li>dajiahao</li>
+          <li>dajiahao</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>ok</li>
+          <li>ok</li>
+          <li>ok</li>
+          <li>ok</li>
+          <li>ok</li>
+          <li>ok</li>
+          <li>ok</li>
+          <li>ok</li>
+          <li>ok</li>
+          <li>ok</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+          <li>你好</li>
+        </ul>
+        </div>
+      </scroll>
+    </div>
+</template>
+
+<script>
+
+  import scroll from "../../components/common/scroll/scroll";
+    export default {
+        name: "profile",
+        components:{
+        scroll
+      }
+    }
+</script>
+
+<style scoped>
+  .ccc{
+    height: 200px;
+    background-color: cyan;
+    overflow: hidden;
+  }
+</style>
