@@ -7,30 +7,23 @@
           <li>你好</li>
           <li>你好</li>
           <li>你好</li>
-          <li>dajiahao</li>
-          <li>dajiahao</li>
-          <li>dajiahao</li>
-          <li>dajiahao</li>
-          <li>dajiahao</li>
-          <li>dajiahao</li>
-          <li>dajiahao</li>
-          <li>dajiahao</li>
-          <li>dajiahao</li>
-          <li>dajiahao</li>
-          <li>dajiahao</li>
-          <li>dajiahao</li>
-          <li>dajiahao</li>
-          <li>dajiahao</li>
-          <li>dajiahao</li>
-          <li>dajiahao</li>
-          <li>dajiahao</li>
-          <li>dajiahao</li>
-          <li>dajiahao</li>
-          <li>dajiahao</li>
-          <li>dajiahao</li>
-          <li>dajiahao</li>
-          <li>dajiahao</li>
-          <li>dajiahao</li>
+          <li>测试better-scroll</li>
+          <li>测试better-scroll</li>
+          <li>测试better-scroll</li>
+          <li>测试better-scroll</li>
+          <li>测试better-scroll</li>
+          <li>测试better-scroll</li>
+          <li>测试better-scroll</li>
+          <li>测试better-scroll</li>
+          <li>测试better-scroll</li>
+          <li>测试better-scroll</li>
+          <li>测试better-scroll</li>
+          <li>测试better-scroll</li>
+          <li>测试better-scroll</li>
+          <li>测试better-scroll</li>
+          <li>测试better-scroll</li>
+          <li>测试better-scroll</li>
+          <li>测试better-scroll</li>
           <li>你好</li>
           <li>你好</li>
           <li>你好</li>
