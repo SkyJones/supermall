@@ -37,6 +37,7 @@ const routes = [
     component:detail
   }
 ]
+
 export default new Router({
   routes,
   mode:'history'

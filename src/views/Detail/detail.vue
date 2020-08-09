@@ -10,11 +10,6 @@
             :probe-type="3"
             ref="scrollback">
       <div>
-        <div>
-          <ul>
-            <li v-for="item in $store.state.cartList">{{item}}</li>
-          </ul>
-        </div>
         <Detail-swiper :top-images="topImages"></Detail-swiper>
         <Detail-base-info :goods="goods"></Detail-base-info>
         <Detail-shop-info :shop="shop"></Detail-shop-info>
@@ -50,6 +45,7 @@
   import {getDetail, Goods, Shop,GoodsParam,getRecommend} from "../../network/detail";
   import {itemListenerMixin,backTopmix} from "../../common/mixin";
   import {debounce} from "../../common/Utils";
+  import {mapActions} from "vuex";
 
   export default {
     name: "detail",
@@ -63,7 +59,7 @@
       DetailCommend,
       GoodsList,
       DetailBottomBar,
-      scroll
+      scroll,
     },
     data(){
       return{
@@ -77,7 +73,6 @@
         themeTopYs:[],
         getThemeTopy:null,
         currentIndex:0,
-
       }
     },
     created() {
@@ -120,6 +115,7 @@
       this.$bus.$off('imageLoads',this.itemImgListener)
     },
     methods:{
+      ...mapActions(['addCart']),
       // Detail-goods-info图片加载刷新事件
       imageLoader(){
         this.$refs.scrollback.refresh
@@ -154,7 +150,15 @@
         product.price = this.goods.realPrice
         product.iid = this.iid
         // 将商品添加到购物车
-        this.$store.dispatch('addCart',product)
+        // Actions返回promise
+        // this.$store.dispatch('addCart',product).then(res=>{
+        //   console.log(res);
+        // })
+
+        // 将商品添加到购物车【使用Actions映射】
+        this.addCart(product).then(res=>{
+          this.$toast.show(res, 1500)
+        })
       }
     }
   }

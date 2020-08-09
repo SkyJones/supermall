@@ -15,7 +15,6 @@ export function getRecommend() {
       url:'/recommend'
     })
 }
-
 // 详情页商品信息
 export class Goods {
   constructor(itemInfo, columns, services) {
